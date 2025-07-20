@@ -18,7 +18,9 @@ class BookDetailViewModel : ViewModel() {
                 ) }
             }
             is BookDetailAction.OnFavoriteClick -> {
-
+                _state.update { it.copy(
+                    isFavorite = !state.value.isFavorite
+                ) }
             }
             else -> Unit
         }

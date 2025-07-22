@@ -127,7 +127,7 @@ fun BlurredImageBackground (
             Spacer(modifier = Modifier.fillMaxHeight(0.15f))
             ElevatedCard(
                 modifier = Modifier
-                    .height(200.dp)
+                    .height(240.dp)
                     .aspectRatio(2/3f),
                 shape = RoundedCornerShape(8.dp),
                 colors = CardDefaults.elevatedCardColors(

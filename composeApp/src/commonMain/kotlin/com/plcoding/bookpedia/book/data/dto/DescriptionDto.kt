@@ -1,3 +1,8 @@
 package com.plcoding.bookpedia.book.data.dto
 
-data class DescriptionDto()
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class DescriptionDto(
+    val value: String
+)

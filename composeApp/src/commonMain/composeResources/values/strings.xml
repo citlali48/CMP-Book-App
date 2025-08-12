@@ -13,6 +13,15 @@
     <string name="error_no_internet">Your internet connection is weak</string>
     <string name="error_too_many_requests">Stop requesting please.</string>
     <string name="error_serialization">Your a serial killer</string>
+    <string name="book_cover">Book cover</string>
+    <string name="rating">Rating</string>
+    <string name="pages">Number of pages</string>
+    <string name="languages">Languages</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="description_unavailable">Description unavailable</string>
+    <string name="go_back">Go to previous page</string>
+    <string name="mark_as_favorite">Mark as favorite</string>
+    <string name="remove_from_favorites">Remove from favorites</string>
 
 
 

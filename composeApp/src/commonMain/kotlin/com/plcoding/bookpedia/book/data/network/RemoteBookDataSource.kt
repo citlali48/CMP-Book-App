@@ -1,5 +1,6 @@
 package com.plcoding.bookpedia.book.data.network
 
+import com.plcoding.bookpedia.book.data.dto.BookWorkDto
 import com.plcoding.bookpedia.book.data.dto.SearchResponseDto
 import com.plcoding.bookpedia.book.data.dto.SearchedBookDto
 import com.plcoding.bookpedia.core.domain.DataError
@@ -10,4 +11,6 @@ interface RemoteBookDataSource {
         query: String,
         resultLimit: Int? = 20 //change later
     ): Result<SearchResponseDto, DataError.Remote>
+
+    suspend fun getBookDetails(bookWordId: String): Result<BookWorkDto, DataError.Remote>
 }
